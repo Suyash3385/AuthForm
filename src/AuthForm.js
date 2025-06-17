@@ -14,17 +14,17 @@ export default function AuthForm(){
 
         <input type='email' placeholder='Email'/> 
         <input type='password' placeholder ='password'/>
-        <a href='#'>forgot password?</a> 
+        
         <button>Login</button>  
-        <p>Not a member? <a href='#' omClick={()=> setIsLogin(false)}>SignUp now</a></p>            
+              
         </div>
                 </> : <>
                 <div className='form'>
                  <h2>SignUp Form</h2>
-
+        <input type='Name' placeholder ='Name'/>
         <input type='email' placeholder='Email'/> 
         <input type='password' placeholder ='password'/>
-        <input type='password' placeholder ='Confirm password'/>
+        <input type='Role' placeholder ='Role'/>
         <button>SignUp</button>
         </div>
                 </>}
